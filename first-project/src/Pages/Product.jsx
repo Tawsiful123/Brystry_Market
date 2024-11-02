@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-export const Product = () => {
-  return (
-    <div>Product</div>
-  )
+export class Product extends Component
+{
+  render(){
+   return 
+    (
+      <div>Product</div>
+    );
+  }
 }
+
+export default Product;

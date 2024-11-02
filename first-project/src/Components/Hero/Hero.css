@@ -1,0 +1,5 @@
+.hero{
+    height: 100vh;
+    background: -o-linear-gradient(180deg, #fde1ff, #e1ffea11 60%);
+    display: flex;
+}
