@@ -1,13 +1,19 @@
-import React, { Component } from 'react'
+import React, { Component, useContext } from 'react'
+import './CSS/ShopCategory.css'
+import { ShopContext } from '../Context/ShopContext';
 
 export class ShopCategory extends Component{
 
   render(){
+    const {all_product} = useContext(ShopContext);
     return(
-  <div>ShopCategory</div>
+      <div className="shop-category">
+              
+      </div>
     );
 
   }
 }
 
 export default ShopCategory;
+///dhfjdfhdfhdh
