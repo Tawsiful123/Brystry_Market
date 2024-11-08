@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-const ShopCategory = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+export class ShopCategory extends Component{
+
+  render(){
+    return(
+  <div>ShopCategory</div>
+    );
+
+  }
 }
 
-export default ShopCategory
+export default ShopCategory;

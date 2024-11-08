@@ -1,11 +1,16 @@
-import React from 'react'
+import React, {Component} from 'react'
 
-const Cart = () => {
+/*export const Cart = () => {
   return (
-    <div>
-      
-    </div>
+    <div>Cart</div>
   )
-}
+}*/
 
-export default Cart
+export class Cart extends Component{
+    render()
+    { return(
+        <div>Cart</div> 
+    );
+    }
+}
+export default Cart;

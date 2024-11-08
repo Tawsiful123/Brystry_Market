@@ -1,11 +1,20 @@
-import React from 'react'
+import React, {Component} from 'react'
+import { Hero } from '../Components/Hero/Hero';
 
-const Shop = () => {
+/* export const Shop = () => {
   return (
-    <div>
-      
-    </div>
+    <div>Shop</div>
   )
+} */
+
+export class Shop extends Component{
+  render(){
+    return (
+      <div>
+        <Hero/>
+      </div>
+    );
+  }
 }
 
-export default Shop
+export default Shop;
