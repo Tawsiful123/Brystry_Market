@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 import { Hero } from '../Components/Hero/Hero';
+import Popular from '../Components/Popular/Popular'
+import Offers from '../Components/Offers/Offers'
 
 /* export const Shop = () => {
   return (
@@ -12,6 +14,8 @@ export class Shop extends Component{
     return (
       <div>
         <Hero/>
+        <Popular/>
+        <Offers/>
       </div>
     );
   }
