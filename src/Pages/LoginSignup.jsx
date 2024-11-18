@@ -1,9 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-export class LoginSignup extends Component{
-  render(){
-    return
-    (
+export class LoginSignup extends Component {
+  render() {
+    return (
       <div>LoginSignup</div>
     );
   }

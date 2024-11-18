@@ -1,13 +1,12 @@
-import React from 'react'
+import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Cart from './Pages/Cart';
-import Navbar from './Components/Navbar/'
-import Shop from './Pages/Shop';
+import Navbar from './Components/Navbar/Navbar';
 import ShopCategory from './Pages/ShopCategory';
+import Shop from './Pages/Shop';
 import Product from './Pages/Product';
+import Cart from './Pages/Cart';
 import LoginSignup from './Pages/LoginSignup';
 import Footer from './Components/Footer/Footer';
-
 
 function App() {
   return (
