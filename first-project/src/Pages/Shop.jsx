@@ -1,5 +1,9 @@
 import React, {Component} from 'react'
 import { Hero } from '../Components/Hero/Hero';
+import Popular from '../Components/Popular/Popular';  
+import NewsLetter from '../Components/NewsLetter/NewsLetter';
+import Offers from '../Components/Offers/Offers';
+import NewCollections from '../Components/NewCollections/NewCollections';
 
 /* export const Shop = () => {
   return (
@@ -12,6 +16,10 @@ export class Shop extends Component{
     return (
       <div>
         <Hero/>
+        <Popular/>
+        <Offers/>
+        <NewCollections/>
+        <NewsLetter/>
       </div>
     );
   }
