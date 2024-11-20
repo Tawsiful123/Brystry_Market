@@ -1,9 +1,12 @@
-.hero{
+.hero {
     height: 100vh;
-    background: -o-linear-gradient(180deg, #fde1ff, #e1ffea11 60%);
+    background: -o-linear-gradient(180deg, #fde1ff, #e1ffea11 60%); /* Gradient background */
     display: flex;
+    justify-content: space-between; /* Aligns left and right content */
+    padding: 20px; /* Optional padding for spacing */
 }
-.hero-left{
+
+.hero-left {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -11,5 +14,39 @@
     gap: 20px;
     padding-left: 180px;
     line-height: 1.1;
+}
 
+.hero-latest-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    color: #000; /* Optional text color */
+    font-weight: bold;
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-left h2 {
+    font-size: 3rem; /* Adjust as needed */
+}
+
+.hero-left p {
+    font-size: 1.5rem; /* Adjust as needed */
+}
+
+.hand-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.hero-right img {
+    max-width: 100%; /* Ensures the image doesn't overflow */
+    height: auto;
 }
