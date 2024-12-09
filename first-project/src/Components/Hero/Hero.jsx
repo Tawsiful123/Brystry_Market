@@ -1,8 +1,8 @@
 import React from 'react'
 import './Hero.css';
-import hand_icon from '../Assests/hand_icon.png' 
-import arrow_icon from '../Assests/arrow.png'
-import hero_imae from '../Assests/hero_image.png'
+import {hand_icon} from '../Assests/hand_icon.png' 
+import {arrow_icon} from '../Assests/arrow.png'
+import {hero_image} from '../Assests/hero_image.png'
 
 export const Hero = () => {
   return (
@@ -23,7 +23,7 @@ export const Hero = () => {
               <img src={arrow_icon} alt="" /> 
         </div>
         <div className="hero-right">
-           <img src={hero_imae} alt="" />
+           <img src={hero_image} alt="" />
         </div>
     </div>
   )
