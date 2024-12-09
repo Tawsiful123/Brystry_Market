@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import './Item.css';
+import { Link } from 'react-router-dom';
+
 class Item extends Component {
   render() {
-    const { image, name, new_price, old_price } = this.props;
+    const { id, image, name, new_price, old_price } = this.props;
 
     return (
       <div className='item'>
-        <img src={image} alt="" />
+        <Link to={`/product/${id}`}><img src={image} alt="" /></Link>
         <p>{name}</p>
         <div className="item_prices"></div>
         <div className="item-price-new">
@@ -21,3 +23,4 @@ class Item extends Component {
 }
 
 export default Item;
+

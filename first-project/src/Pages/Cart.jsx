@@ -1,10 +1,6 @@
 import React, {Component} from 'react'
 
-/* export const Cart = () => {
-  return (
-    <div>Cart</div>
-  )
-} */
+
 
  export class Cart extends Component{
     render()
@@ -14,4 +10,3 @@ import React, {Component} from 'react'
     }
 }
 export default Cart; 
-//dfdfdfdf
